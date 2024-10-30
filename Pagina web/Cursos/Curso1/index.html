@@ -82,7 +82,6 @@
     font-size: 14px;
     color: #95a5a6;
 }
-
     .navbar-brand {
       top: 15px;
       right: 10px;
@@ -131,6 +130,58 @@
       opacity: 0;
       transition: opacity 0.5s;
     }
+    .Perfil {
+    background-color: #ffffff; /* Fondo blanco */
+    border: 1px solid #ddd;
+    padding: 25px;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #444;
+    max-width: 800px;
+    margin: 30px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease; /* Transición */
+}
+
+.Perfil:hover {
+    transform: translateY(-5px); /* Efecto hover */
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15); /* Sombra más intensa en hover */
+}
+
+.Perfil h1 {
+    color:#23631f; 
+    font-size: 2em;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #23631f; /* Línea bajo el título */
+    padding-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Perfil p {
+    font-size: 1.1em;
+    line-height: 1.8em;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: #555;
+}
+
+.Perfil li {
+    font-size: 1.05em;
+    line-height: 1.6em;
+    margin-bottom: 12px;
+    padding-left: 10px;
+    list-style-type: disc;
+    color: #333;
+    position: relative;
+}
+
+.Perfil li::before {
+    content: "✓"; /* Marca de verificación */
+    color: #2ecc71; /* Verde para icono */
+    font-weight: bold;
+    margin-right: 10px;
+}
 
     .imagen-con-info:hover .info-imagen {
       opacity: 1;
@@ -170,10 +221,10 @@
               <!-- /logo -->
             </div>
             <ul class="nav navbar-nav">
-              <li><a href="/Inst_Vid_Silvestre/index.html">Home</a></li>
+              <li><a href="/Pagina web/Inst_Vid_Silvestre/index.html">Home</a></li>
               <li><a href="/Inst_Vid_Silvestre/index.html">Carreras y Cursos</a></li>
-              <li><a href="/Quienes Somos/Quienes somos.html">Nosotros</a></li>
-              <li><a href="/Area Naturales/Area Natural.html">Areas Naturales</a></li>
+              <li><a href="/Pagina web/Quienes Somos/Quienes somos.html">Nosotros</a></li>
+              <li><a href="/Pagina web/Area Naturales/Area Natural.html">Areas Naturales</a></li>
               <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdZEXsTogp-0ugaeqg-TTREokSlqpypUDYZxWbFtR3USdEJxw/viewform">Pre-Inscripcion 2024!</a></li>
               <li><a href="https://institutovidasilvestre.com.ar/campus/login/index.php">Campus</a></li>
             </ul>
@@ -219,7 +270,7 @@
               Sé guardia y protector de Áreas Protegidas. Brinda asistencia a proyectos de 
               investigación científica y desarrollos de programas de educación y promoción 
               ambiental. Detecta y evalúa las causas y efectos del deterioro ambiental en las áreas bajo tu custodia.
-              <h2 ><a href="https://docs.google.com/forms/d/e/1FAIpQLSdZEXsTogp-0ugaeqg-TTREokSlqpypUDYZxWbFtR3USdEJxw/viewform">HAZ CLICK ACA PARA INSCRIBIRTE A LA TACNICATURA </a></h2>
+              <h2 ><a href="https://docs.google.com/forms/d/e/1FAIpQLSdZEXsTogp-0ugaeqg-TTREokSlqpypUDYZxWbFtR3USdEJxw/viewform">HAZ CLICK ACA PARA INSCRIBIRTE A LA TECNICATURA </a></h2>
             </p>
             <br>
               <section class="service_section">
@@ -249,26 +300,27 @@
   <!-- service section -->
   <section class="layout_padding story_section">
     <div class="container">
-      <div class="row">
-        <div class=" col-md-6">
-          <div class="imagen-con-info">
-            <img style="border-radius: 25px;" class="img-fluid" src="images/Los_Cedros.png" alt="" />
-            <div class="info-imagen">
-              <h2>ORIENTACION DEL CURSADO</h2>
-              <ul>
-                <li>
-                  Protege los recursos naturales, culturales y sus paisajes.
-                </li>
-                <li>
-                  Se guardia y protector de Áreas Protegidas. Brinda asistencia a proyectos de investigación científica y desarrollos de programas de educación y promoción ambiental.
-                </li> 
-                <li>
-                  Detecta y evalúa las causas y efectos del deterioro ambiental en las áreas bajo tu custodia.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+      <div class="Perfil">
+        <h1>ORIENTACION DEL CURSADO</h1>
+        <ul>
+          <li>
+            Protege los recursos naturales, culturales y sus paisajes.
+          </li>
+          <li>
+            Se guardia y protector de Áreas Protegidas. Brinda asistencia a proyectos de investigación científica y desarrollos de programas de educación y promoción ambiental.
+          </li> 
+          <li>
+            Detecta y evalúa las causas y efectos del deterioro ambiental en las áreas bajo tu custodia.
+          </li>
+      </div>
+      <div class="Perfil">
+        <h1>Perfil Profesional</h1>
+        <p>El Técnico Superior en Manejo y Conservación en Áreas Protegidas esta capacitado para aplicar y transferir conocimientos, habilidades, detrezas, valores y actitudes en situaciones reales de trabajo, conforme a criterios de profesionalidad propios de su área.</p>
+        <li>Intrepetar y aplicar de manera adecuadas la legislación vigente y los procesos administrativo inherentes al desempeño de sus funciones. Predisposición para el trabajo grupal y respeto del orden jerárquico.</li>
+        <li>Gestionar y ejecutar actividades en relación al cuidado, vigilancia y uso de los ambientes representativos de las diferentse áreas biogeograficas, ecólogicas, paisajisticas y culturales de la región, país y zonas limitrofes.</li>
+        <li>Promover y participar en el análisis, planificación, implementación y evaluación de acciones de manejo adentro de un área protegida o en cualquier otro ámbito laboral donde se requiera capacidades para la conservación y/o protecciones ambiental en el cual se involucre.</li>
+        <li>Monitorear el cumplimiento de los objetivos de conservación planteados para el área protegida o el programa de conservación y/o proteccion ambiental en el cual se involucre.</li>
+        <li>Favorecer y asistir la generación de conocimiento científico sobre los valores naturales y culturales del territorio de trabajo en el cual se desarrolle su actividad.</li>
       </div>
     </div>
   </section>
